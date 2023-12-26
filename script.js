@@ -22,7 +22,7 @@ var tl= gsap.timeline({scrollTrigger:{
 
   tl2.to("#fanta", {
    
-    width:"40%",
+    width:"39%",
     top: "210%",
     left: "30%"
   },"sprite");

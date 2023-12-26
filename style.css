@@ -182,7 +182,7 @@ background-image: linear-gradient(#74D680,#378B29);
 
 .three>.card>img{
    
-    width: 30%;
+    width: 28%;
     top: 9%;
     position: absolute;
     /* transition: all cubic-bezier(0.075, 0.82, 0.165, 1)0.5s; */
