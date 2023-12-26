@@ -1,40 +1,10 @@
-// // script.js
-
-
-// // Wait for the DOM to be ready
-// document.addEventListener("DOMContentLoaded", function () {
-//     // Define the GSAP timeline
-//     var tl = gsap.timeline({
-//       scrollTrigger: {
-//         trigger: ".two",
-//         start: "0% 95%",
-//         end: "50% 50%",
-//         scrub: true,
-//         markers: true,
-//       },
-//     });
-  
-//     // Add animations to the timeline
-//     tl.to("#fanta", {
-//       top: "120%",
-//       left: "0%",
-//     });
-  
-//     // More GSAP animations can be added here
-  
-//     // Optional: Add a ScrollTrigger animation
-
-//   });
-  
-
-
-  var tl= gsap.timeline({scrollTrigger:{
+var tl= gsap.timeline({scrollTrigger:{
 
     trigger: ".two",
     start: "0% 95%",
     end: "60% 50%",
     scrub: true,
-    markers: true,
+    
 
   }})
 
@@ -44,7 +14,7 @@
     start: "0% 95%",
     end: "30% 50%",
     scrub: true,
-    markers: true,
+   
 
   }})
 
