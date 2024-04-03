@@ -1,5 +1,6 @@
-var tl= gsap.timeline({scrollTrigger:{
-
+var tl= gsap.timeline({
+  
+  scrollTrigger:{
     trigger: ".two",
     start: "0% 95%",
     end: "60% 50%",
@@ -9,7 +10,6 @@ var tl= gsap.timeline({scrollTrigger:{
   }})
 
   var tl2= gsap.timeline({scrollTrigger:{
-
     trigger: ".three",
     start: "0% 95%",
     end: "30% 50%",
